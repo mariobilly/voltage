@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.log
+*.part
+*.part.*
+*.tsbuildinfo
+# the smoke test's screenshot and recording
+artifacts/
