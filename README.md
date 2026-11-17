@@ -9,6 +9,28 @@ set as a WebM video.
 VOLTAGE is an early version (0.1). It passes its automated check in Chrome on Windows 11, but it has not yet been
 tried on many projectors, audio interfaces or long shows.
 
+![VOLTAGE](docs/screenshot.jpg)
+
+<!-- videos:start -->
+## See it in action
+
+<p align="center"><a href="docs/videos/tutorial.mp4"><img src="docs/videos/tutorial.jpg" alt="How it works" width="640"></a><br><b>▶ <a href="docs/videos/tutorial.mp4">How it works</a></b> (0:59, with captions)</p>
+
+**Recorded with VOLTAGE's own recorder: every scene is drawn by the app, moved by a generated test signal**
+
+<table><tr>
+<td width="33%" align="center"><a href="docs/videos/examples/tunnel.mp4"><img src="docs/videos/examples/tunnel.gif" alt="Tunnel"></a><br><a href="docs/videos/examples/tunnel.mp4">Tunnel</a></td>
+<td width="33%" align="center"><a href="docs/videos/examples/liquid.mp4"><img src="docs/videos/examples/liquid.gif" alt="Liquid"></a><br><a href="docs/videos/examples/liquid.mp4">Liquid</a></td>
+<td width="33%" align="center"><a href="docs/videos/examples/kaleidoscope.mp4"><img src="docs/videos/examples/kaleidoscope.gif" alt="Kaleidoscope"></a><br><a href="docs/videos/examples/kaleidoscope.mp4">Kaleidoscope</a></td>
+</tr><tr>
+<td width="33%" align="center"><a href="docs/videos/examples/glitch-grid.mp4"><img src="docs/videos/examples/glitch-grid.gif" alt="Glitch Grid"></a><br><a href="docs/videos/examples/glitch-grid.mp4">Glitch Grid</a></td>
+<td width="33%" align="center"><a href="docs/videos/examples/orbit-particles-crossfade.mp4"><img src="docs/videos/examples/orbit-particles-crossfade.gif" alt="Orbit → Particles, crossfader"></a><br><a href="docs/videos/examples/orbit-particles-crossfade.mp4">Orbit → Particles, crossfader</a></td>
+<td width="33%" align="center"><a href="docs/videos/examples/live-set-fades.mp4"><img src="docs/videos/examples/live-set-fades.gif" alt="Scene changes, 0.6 s fades"></a><br><a href="docs/videos/examples/live-set-fades.mp4">Scene changes, 0.6 s fades</a></td>
+</tr></table>
+
+Click any picture to play the video. Example sources: none from outside. VOLTAGE draws every scene itself, and the sound that moves them is a generated test signal (pulsed tones made in code, no music). The videos have no sound.
+<!-- videos:end -->
+
 ## Install
 
 You need:
@@ -177,6 +199,8 @@ npm run smoke
   smoke test uses [Playwright](https://playwright.dev) (Apache-2.0).
 - The scenes and the icon are drawn in code, and the interface uses fonts that come with Windows. No third-party
   images, fonts or sounds are included.
+- Footage in the tutorial and examples: recorded from VOLTAGE itself. The sound that moves the scenes is a
+  generated test signal (pulsed tones made in code, no music), and the videos have no sound.
 
 ## Licence
 
